@@ -22,3 +22,27 @@ export const useGameStore = create<GameStore>((set) => ({
   setPlayerHP: (hp) => set({ playerHP: hp }),
   setEnemyHP: (hp) => set({ enemyHP: hp }),
 }))
+
+
+
+
+//   levels: {
+//     battle(lvl),
+//     event(lvl),
+//   },
+
+// store: {
+//   state: {
+//     world: {
+//       lvl
+//     },
+//     player: {
+//       stats,
+//       inventory,
+//     },
+//     battle state,
+//   },
+//   actions: {
+
+//   },
+// }
